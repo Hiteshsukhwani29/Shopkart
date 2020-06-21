@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/arizonia</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/ceviche_one</item>
+        <item>@font/keania_one</item>
+        <item>@font/knewave</item>
+        <item>@font/modak</item>
+        <item>@font/mrs_sheppards</item>
+        <item>@font/playball</item>
+        <item>@font/purple_purse</item>
+    </array>
+</resources>

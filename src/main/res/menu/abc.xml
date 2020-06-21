@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:id="@+id/item7"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Login"
+        android:id="@+id/item6"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item2"
+        android:title="Category"
+        app:showAsAction="never">
+    <menu>
+        <item android:id="@+id/item3"
+            android:title="Medical Shops"
+            />
+        <item android:id="@+id/item4"
+            android:title="General Stores"
+            />
+        <item android:id="@+id/item5"
+            android:title="Raw Vegetable Shops"/>
+    </menu>
+</item>
+</menu>

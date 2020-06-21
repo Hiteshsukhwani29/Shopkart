@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item android:title="Category">
+        <menu>
+            <item
+                android:id="@+id/item3"
+                android:title="Medical Shops"/>
+            <item
+                android:id="@+id/item4"
+                android:title="General Stores"/>
+            <item
+                android:id="@+id/item5"
+                android:title="Raw Vegetable Shops" />
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Important">
+        <menu>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate Now on Playstore" />
+            <item
+                android:id="@+id/Feed"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/ad"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="Read Advisory" />
+        </menu>
+    </item>
+    </group>
+    <item android:title="For Dealers">
+        <menu>
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="Login" />
+            <item
+                android:id="@+id/Contact"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Contact Developer" />
+        </menu>
+    </item>
+
+</menu>
